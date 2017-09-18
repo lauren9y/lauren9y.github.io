@@ -69,7 +69,8 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  /*background: #ffffff;*/
+  background-image: #ffffff url('../img/portflolio_background.jpg') repeat center center;
   color: white;
 }
 header .container {
