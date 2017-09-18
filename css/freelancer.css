@@ -69,12 +69,12 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  
+  background: #ffffff;
   
   /*color: white;*/
 }
 #home {
-  background-image: url('../img/portfolio_background.jpg');
+  background-image: url('img/portfolio_background.jpg');
   width: 100%;
   height: auto;
   background-size: cover;
