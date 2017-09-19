@@ -69,9 +69,8 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background-image: url('../img/portfolio_background.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/portfolio_background_make.jpg');
   width: 100%;
-  height: auto;
   background-size: cover;
   color: white;
 }
@@ -506,4 +505,12 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+
+#me .center{
+	width:200px;
+    height:150px;
+    position:relative;
+    display:inline-block;
+    overflow:hidden;
 }
